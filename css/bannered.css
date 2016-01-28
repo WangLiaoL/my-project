@@ -1,0 +1,65 @@
+
+a{
+    blr: expression(this.onFocus=this.blur());
+    outline: none;
+}
+.carousel {
+    width: 730px;
+    height: 454px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 10px;
+    float: left;
+    margin-top: -17px;
+}
+
+.carousel .num {
+    overflow: hidden;
+    height: 25px;
+    position: absolute;
+    bottom: 12px;
+    left: 285px;
+    zoom: 1;
+    z-index: 3
+}
+
+.carousel .num li {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-weight: 400;
+    color: #FFFFFF;
+    background: #444444;
+    margin-right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    float: left;
+}
+
+.carousel .num li.on {
+    background: #e61b1f;
+}
+
+.carousel .prev, .carousel .next {
+    display: none;
+    width: 40px;
+    height: 80px;
+    background: url(../img/btn.png) no-repeat;
+    position: absolute;
+    top: 155px;
+}
+
+.carousel .prev {
+    left: 0;
+}
+
+.carousel .next {
+    right: 0;
+    background-position: right
+}
+
+#foot_bm a, p, p a {
+    font-size: 12px;
+    color: #666;
+}
